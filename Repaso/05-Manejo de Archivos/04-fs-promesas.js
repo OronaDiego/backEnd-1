@@ -64,3 +64,6 @@ console.log('--------------------------------------');
 console.log('info paraseado a objeto JS');
 console.log(infoJS);
 
+//Este metodo borra el archivo completo 
+fs.unlinkSync(infoJS)
+
