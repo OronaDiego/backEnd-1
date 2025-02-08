@@ -1,0 +1,14 @@
+{
+  "name": "01-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server-http.js",
+    "dev": "node --watch server-http.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
