@@ -5,10 +5,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node server-http.js",
-    "dev": "node --watch server-http.js"
+    "start": "node serverExpress.js",
+    "dev": "node --watch serverExpress.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
